@@ -1,0 +1,55 @@
+- .pytest_cache
+  - .gitignore
+  - CACHEDIR.TAG
+  - README.md
+  - v
+    - cache
+      - lastfailed
+      - nodeids
+- LMS Admin Journey Flow.py
+- LMS Architecture Diagram.py
+- LMS Flow Diagram.py
+- LMS Student Journey Flow.py
+- LMS Use Case Diagram.py
+- app
+  - __init__.py
+  - controllers
+    - admin_controller.py
+    - auth_controller.py
+    - course_controller.py
+    - student_controller.py
+  - database
+    - database.py
+    - seeder.py
+  - main.py
+  - middleware
+    - middleware.py
+  - models
+    - admin_model.py
+    - course_model.py
+    - student_model.py
+  - repositories
+    - admin_repository.py
+    - course_repository.py
+    - student_repository.py
+  - routers
+    - admin_router.py
+    - auth_router.py
+    - course_router.py
+    - student_router.py
+  - services
+    - auth.py
+    - helping_functions.py
+  - static
+    - favicon.png
+  - validation
+    - validation.py
+- cms_architecture_diagram.png
+- cms_flow_diagram.png
+- cms_use_case_diagram.png
+- lms_admin_user_journey_flow.png
+- lms_student_user_journey_flow.png
+- requirements.txt
+- tests
+  - __init__.py
+  - test.py

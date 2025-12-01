@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+motor
+pydantic
+python-dotenv
+bson
+pydantic[email]
+passlib
+pyjwt
+hashlib
+redis
